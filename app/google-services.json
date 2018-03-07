@@ -1,0 +1,71 @@
+{
+  "project_info": {
+    "project_number": "751992996674",
+    "firebase_url": "https://taxapp-c61c1.firebaseio.com",
+    "project_id": "taxapp-c61c1",
+    "storage_bucket": "taxapp-c61c1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:751992996674:android:7e29cf23260085b6",
+        "android_client_info": {
+          "package_name": "com.example.fauziw97.taxapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "751992996674-kdrjfk2l6jhpqk8tbce0cg11escou1uc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.fauziw97.taxapp",
+            "certificate_hash": "aaec1e1e13d0fa97bdf13fe71f9b1dd2eda002ad"
+          }
+        },
+        {
+          "client_id": "751992996674-n1do3pgehvcnl6hbo52h04j0ig7hmgor.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.fauziw97.taxapp",
+            "certificate_hash": "1cca6cada9d1ac7ad8d464c8681f8628a7e41d3a"
+          }
+        },
+        {
+          "client_id": "751992996674-3e47eltd5isk6vf9ldj10udmq8m0hcpo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.fauziw97.taxapp",
+            "certificate_hash": "09fa9931a78e4324d88bb3218164064a5932e76b"
+          }
+        },
+        {
+          "client_id": "751992996674-gacckf129apsjr6hehplhk03seg7t6vh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD-8FJ3x_KEeMB-RkVJQN1xwTR8r-5Zpf0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "751992996674-gacckf129apsjr6hehplhk03seg7t6vh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

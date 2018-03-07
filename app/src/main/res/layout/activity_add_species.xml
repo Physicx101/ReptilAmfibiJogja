@@ -1,0 +1,311 @@
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_alignParentTop="true">
+
+   <include
+       layout="@layout/toolbar"
+       android:id="@+id/toolbar" />
+
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="58dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="24dp"
+            android:paddingRight="24dp"
+            android:paddingTop="8dp">
+
+
+            <!--  Nama Species -->
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginTop="8dp"
+                android:theme="@style/TextAppearence.App.TextInputLayout">
+
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/ETspesies"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Nama Species"
+                    android:inputType="textCapSentences"/>
+            </android.support.design.widget.TextInputLayout>
+
+            <!-- Kingdom -->
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginTop="8dp"
+                android:theme="@style/TextAppearence.App.TextInputLayout">
+
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/ETKingdom"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Kingdom"
+                    android:inputType="textCapSentences"/>
+            </android.support.design.widget.TextInputLayout>
+
+            <!-- Phyllum -->
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginTop="8dp"
+                android:theme="@style/TextAppearence.App.TextInputLayout">
+
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/ETPhyllum"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Phyllum"
+                    android:inputType="textCapSentences"/>
+            </android.support.design.widget.TextInputLayout>
+
+            <!--  Classis -->
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginTop="8dp"
+                android:theme="@style/TextAppearence.App.TextInputLayout">
+
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/ETClassis"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Classis"
+                    android:inputType="textCapSentences"/>
+            </android.support.design.widget.TextInputLayout>
+
+            <!-- Ordo -->
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginTop="8dp"
+                android:theme="@style/TextAppearence.App.TextInputLayout">
+
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/ETOrdo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Ordo"
+                    android:inputType="textCapSentences"/>
+            </android.support.design.widget.TextInputLayout>
+
+            <!--  Familia -->
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginTop="8dp"
+                android:theme="@style/TextAppearence.App.TextInputLayout">
+
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/ETFamilia"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Familia"
+                    android:inputType="textCapSentences"/>
+            </android.support.design.widget.TextInputLayout>
+
+            <!-- Genus -->
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginTop="8dp"
+                android:theme="@style/TextAppearence.App.TextInputLayout">
+
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/ETGenus"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Genus"
+                    android:inputType="textCapSentences"/>
+            </android.support.design.widget.TextInputLayout>
+
+            <!--  Status Konservasi -->
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginTop="8dp"
+                android:theme="@style/TextAppearence.App.TextInputLayout">
+
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/ETStatusKonservasi"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Status Konservasi"
+                    android:inputType="textCapSentences"/>
+            </android.support.design.widget.TextInputLayout>
+
+            <!-- Distribusi -->
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginTop="8dp"
+                android:theme="@style/TextAppearence.App.TextInputLayout">
+
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/ETDistribusi"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Distribusi"
+                    android:inputType="textCapSentences"/>
+            </android.support.design.widget.TextInputLayout>
+
+            <!--  Habitat -->
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginTop="8dp"
+                android:theme="@style/TextAppearence.App.TextInputLayout">
+
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/ETHabitat"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Habitat"
+                    android:inputType="textCapSentences"/>
+            </android.support.design.widget.TextInputLayout>
+
+            <!-- Deskripsi -->
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginTop="8dp"
+                android:theme="@style/TextAppearence.App.TextInputLayout">
+
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/ETDeskripsi"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Deskripsi"
+                    android:inputType="textCapSentences"/>
+            </android.support.design.widget.TextInputLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginTop="8dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Foto Overall: "
+                        android:textSize="16sp"/>
+
+                    <ImageView
+                        android:id="@+id/Overall"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:layout_marginStart="32dp"
+                        android:onClick="Overall"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/ic_image_black_24dp"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginTop="8dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="16sp"
+                        android:text="Foto Dorsal: "/>
+
+                    <ImageView
+                        android:id="@+id/Dorsal"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:layout_marginStart="32dp"
+                        android:onClick="Dorsal"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/ic_image_black_24dp"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginTop="8dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="16sp"
+                        android:text="Foto Ventral: "/>
+
+                    <ImageView
+                        android:id="@+id/Ventral"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:layout_marginStart="32dp"
+                        android:onClick="Ventral"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/ic_image_black_24dp"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginTop="8dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="16sp"
+                        android:text="Foto Lateral: "/>
+
+                    <ImageView
+                        android:id="@+id/Lateral"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:layout_marginStart="32dp"
+                        android:onClick="Lateral"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/ic_image_black_24dp"/>
+                </LinearLayout>
+
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</android.support.design.widget.CoordinatorLayout>
