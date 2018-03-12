@@ -92,6 +92,7 @@ public class FrogFragment extends Fragment {
 
         mProgressBar.setVisibility(View.VISIBLE);
         DatabaseReference frogData = mRef.child("Amfirep");
+//        frogData.keepSynced(true);
         Query frogList = frogData.orderByChild("Jenis").equalTo("Amphibi");
         frogList.addValueEventListener(new ValueEventListener() {
             @Override

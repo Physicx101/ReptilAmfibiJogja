@@ -82,6 +82,7 @@ public class LizardFragment extends Fragment {
 
         mProgressBar.setVisibility(View.VISIBLE);
         DatabaseReference lizardData = mRef.child("Amfirep");
+//        lizardData.keepSynced(true);
         Query lizardList = lizardData.orderByChild("Jenis").equalTo("Lizard");
         lizardList.addValueEventListener(new ValueEventListener() {
             @Override

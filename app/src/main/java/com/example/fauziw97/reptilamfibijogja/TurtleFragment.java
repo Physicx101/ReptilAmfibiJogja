@@ -82,6 +82,7 @@ public class TurtleFragment extends Fragment {
 
         mProgressBar.setVisibility(View.VISIBLE);
         DatabaseReference turtleData = mRef.child("Amfirep");
+//        turtleData.keepSynced(true);
         Query turtleList = turtleData.orderByChild("Jenis").equalTo("Turtle");
         turtleList.addValueEventListener(new ValueEventListener() {
             @Override

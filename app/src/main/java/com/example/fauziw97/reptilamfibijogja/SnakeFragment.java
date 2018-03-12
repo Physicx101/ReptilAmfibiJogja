@@ -37,7 +37,6 @@ import static com.example.fauziw97.reptilamfibijogja.MainActivity.role;
  */
 
 public class SnakeFragment extends Fragment {
-
     DatabaseReference mRef = FirebaseDatabase.getInstance().getReference();
     private RecyclerView.Adapter mAdapter;
     private List<SpeciesModel> mSpeciesModels;
@@ -82,6 +81,7 @@ public class SnakeFragment extends Fragment {
 
         mProgressBar.setVisibility(View.VISIBLE);
         DatabaseReference snakeData = mRef.child("Amfirep");
+//        snakeData.keepSynced(true);
         Query snakeList = snakeData.orderByChild("Jenis").equalTo("Snake");
         snakeList.addValueEventListener(new ValueEventListener() {
             @Override
