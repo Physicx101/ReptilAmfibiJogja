@@ -6,13 +6,13 @@
               android:layout_height="match_parent"
               android:background="#000"
               android:orientation="vertical"
-              tools:context="com.example.fauziw97.taxapp.ImageFullscreenActivity">
+              tools:context="com.biologi.ugm.taxapp.ImageFullscreenActivity">
 
     <include
         layout="@layout/toolbar"
         android:id="@+id/toolbar" />
 
-    <com.example.fauziw97.reptilamfibijogja.View.TouchImageView
+    <com.biologi.ugm.reptilamfibijogja.View.TouchImageView
         android:id="@+id/image"
         android:layout_width="match_parent"
         android:layout_height="match_parent"

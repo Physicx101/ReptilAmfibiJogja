@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-          package="com.example.fauziw97.reptilamfibijogja">
+          package="com.biologi.ugm.reptilamfibijogja">
 
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
     <uses-permission android:name="android.permission.INTERNET"/>
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
 
     <!-- To auto-complete the email text field in the login form with the user's emails -->
     <uses-permission android:name="android.permission.GET_ACCOUNTS"/>
@@ -13,7 +14,7 @@
     <uses-permission android:name="android.permission.READ_CONTACTS"/>
 
     <application
-        android:name=".MApplication"
+        android:name="com.biologi.ugm.reptilamfibijogja.MApplication"
         android:allowBackup="true"
         android:hardwareAccelerated="true"
         android:icon="@drawable/app_logo"
@@ -22,25 +23,31 @@
         android:roundIcon="@drawable/app_logo"
         android:supportsRtl="true"
         android:theme="@style/AppTheme.NoActionBar">
-        <activity android:name=".SplashActivity">
+        <activity android:name="com.biologi.ugm.reptilamfibijogja.SplashActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
 
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
-        <activity android:name=".MainActivity"/>
-        <activity android:name=".AddSpeciesActivity"/>
-        <activity android:name=".SpeciesDetailsActivity"/>
-        <activity android:name=".ImageFullscreenActivity"/>
+        <activity android:name="com.biologi.ugm.reptilamfibijogja.MainActivity"/>
+        <activity android:name="com.biologi.ugm.reptilamfibijogja.AddSpeciesActivity"/>
+        <activity android:name="com.biologi.ugm.reptilamfibijogja.SpeciesDetailsActivity"/>
+        <activity android:name="com.biologi.ugm.reptilamfibijogja.ImageFullscreenActivity"/>
         <activity
-            android:name=".LoginActivity"
+            android:name="com.biologi.ugm.reptilamfibijogja.LoginActivity"
             android:label="@string/title_activity_login"
             android:theme="@style/Theme.AppCompat.Light.Dialog.Alert"/>
-        <activity android:name=".AboutActivity">
+        <activity android:name="com.biologi.ugm.reptilamfibijogja.AboutActivity">
         </activity>
-        <activity android:name=".GuideActivity">
+        <activity android:name="com.biologi.ugm.reptilamfibijogja.GuideActivity">
         </activity>
+
+        <receiver android:name=".NetworkStateReceiver">
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+            </intent-filter>
+        </receiver>
     </application>
 
 </manifest>

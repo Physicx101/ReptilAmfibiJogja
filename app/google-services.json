@@ -10,7 +10,7 @@
       "client_info": {
         "mobilesdk_app_id": "1:751992996674:android:7e29cf23260085b6",
         "android_client_info": {
-          "package_name": "com.example.fauziw97.taxapp"
+          "package_name": "com.biologi.ugm.reptilamfibijogja"
         }
       },
       "oauth_client": [
@@ -18,7 +18,7 @@
           "client_id": "751992996674-kdrjfk2l6jhpqk8tbce0cg11escou1uc.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "com.example.fauziw97.taxapp",
+            "package_name": "com.biologi.ugm.reptilamfibijogja",
             "certificate_hash": "aaec1e1e13d0fa97bdf13fe71f9b1dd2eda002ad"
           }
         },
@@ -26,7 +26,7 @@
           "client_id": "751992996674-n1do3pgehvcnl6hbo52h04j0ig7hmgor.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "com.example.fauziw97.taxapp",
+            "package_name": "com.biologi.ugm.reptilamfibijogja",
             "certificate_hash": "1cca6cada9d1ac7ad8d464c8681f8628a7e41d3a"
           }
         },
@@ -34,7 +34,7 @@
           "client_id": "751992996674-3e47eltd5isk6vf9ldj10udmq8m0hcpo.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "com.example.fauziw97.taxapp",
+            "package_name": "com.biologi.ugm.reptilamfibijogja",
             "certificate_hash": "09fa9931a78e4324d88bb3218164064a5932e76b"
           }
         },
