@@ -10,6 +10,16 @@ import static com.biologi.ugm.reptilamfibijogja.LoginActivity.Auth;
 import static com.biologi.ugm.reptilamfibijogja.LoginActivity.MyPREFERENCES;
 import static com.biologi.ugm.reptilamfibijogja.MainActivity.role;
 
+/**
+ * Reptil dan Amifibi Jogja adalah aplikasi yang diusulkan oleh kelompok studi herpetologi Biologi
+ * Digunakan untuk mengakses informasi tentang hewan reptil dan amfibi daerah
+ * ID : reptilamfibi , PSW : Reptilamfibi
+ *
+ *
+ *
+ *
+ */
+
 public class SplashActivity extends AppCompatActivity {
 
     @Override
@@ -18,11 +28,12 @@ public class SplashActivity extends AppCompatActivity {
         setContentView(R.layout.activity_splash_screen);
 
 
-
+        //Mengecek Admin
         SharedPreferences prefs = this.getSharedPreferences(MyPREFERENCES, Context.MODE_PRIVATE);
         String lanSettings = prefs.getString(Auth, "Member");
         if (lanSettings.equals("Admin")) role = "Admin";
 
+        //Agar splashcreen diam 3 detik
         Thread myThread = new Thread(){
             @Override
             public void run() {
